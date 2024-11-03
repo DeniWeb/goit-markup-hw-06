@@ -176,7 +176,8 @@ button {
     color: #2e2f42;
 }
 
-.mob-activ {
+.mob-nav-list-link.activ,
+.mob-contacts-list-link.activ {
     color: #4d5ae5;
 }
 
@@ -707,7 +708,6 @@ button {
     display: flex;
     gap: 8px;
     align-items: center;
-    /* margin-bottom: 24px; */
 }
 
 .check-span {
@@ -759,6 +759,10 @@ button {
     }
 
     .burger-btn {
+        display: none;
+    }
+
+    .mob-menu {
         display: none;
     }
 
